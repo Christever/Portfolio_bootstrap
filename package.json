@@ -1,0 +1,19 @@
+{
+    "name": "test",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "purgecss --css style.css --content index.html --output dist/",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "bootstrap": "^5.2.3"
+    },
+    "devDependencies": {
+        "purgecss": "^5.0.0"
+    }
+}

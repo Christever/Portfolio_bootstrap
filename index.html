@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <link rel="stylesheet" href="css/style.css" />
+        <title>Document</title>
+    </head>
+    <body class="bg-primary-light">
+        <header class="sticky-top">
+            <nav class="navbar bg-primary navbar-expand-md py-2">
+                <div class="container">
+                    <div class="navbar-brand text-silver fw-light">
+                        Christian Stéverlynck
+                    </div>
+
+                    <div
+                        class="navbar-toggler"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#menu"
+                    >
+                        <span class="fa fa-bars text-silver"> Menu</span>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="menu">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link text-silver"
+                                    >Accueil</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    href="#realisations"
+                                    class="nav-link text-silver"
+                                    >Mes réalisations</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    href="https://christever.itch.io"
+                                    class="nav-link text-silver"
+                                    target="_blank"
+                                    rel="noopener"
+                                >
+                                    Mon Itch.io
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    href="https://christever.itch.io"
+                                    class="nav-link text-silver"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#modal-info-legales"
+                                >
+                                    Mentions légales
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Présentation -->
+        <section class="" id="section-presentation">
+            <div class="container">
+                <div class="row text-white" id="presentation">
+                    <div class="col text-center text-white align-self-center">
+                        <h2 class="fs-1 fw-light">
+                            Hello, Je suis <br />
+                            Christever
+                        </h2>
+                    </div>
+                    <div class="row fs-4 fw-light">
+                        <div class="col-md-4">
+                            <p>
+                                J'ai découvert l'informatique tout jeune dans
+                                les années 80. Mon premier ordinateur a été un
+                                ZX81, monté par moi-même ( 1Ko demémoire) Il a
+                                été rapidement suivi par un Spectrum, puis d'un
+                                Oric 1 lui-même suivi d'un Oric Atmos pour enfin
+                                passer aux PC.
+                            </p>
+                            <p>
+                                En 2016, j'ai commencé à suivre
+                                <a
+                                    href="https://www.gamecodeur.fr"
+                                    class="text-silver text-decoration-none"
+                                    target="_blank"
+                                    rel="noopener"
+                                    >Gamecodeur
+                                    <em class="fa fa-external-link"></em></a
+                                >, site axé programmation de jeux vidéos. <br />
+                                En Mars 2022, je me suis inscrit sur le site de
+                                <a
+                                    href="https://believemy.com"
+                                    class="btn btn-outline-silver fs-4 border-0 text-decoration-none"
+                                    target="_blank"
+                                    rel="noopener"
+                                >
+                                    Believemy
+                                    <em class="fa fa-external-link"></em
+                                ></a>
+                            </p>
+                        </div>
+                        <div class="col-md-4 text-center align-self-center">
+                            <img
+                                src="images/Image compte.jpg"
+                                alt="image"
+                                id="image-compte"
+                            />
+                        </div>
+                        <div class="col-md-4">
+                            <p class="text-center">
+                                Je vous présente ici mes différentes ébauches
+                                réalisées pour plusieurs gamejams de
+                                <a
+                                    href="htpps://gamecodeur.com"
+                                    target="_blank"
+                                    class="btn btn-outline-silver fs-4 border-0 text-decoration-none"
+                                    >GameCodeur
+                                    <em class="fa fa-external-link"></em
+                                ></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Réalisations -->
+        <section class="" id="realisations">
+            <div class="container">
+                <h1 class="text-center fw-light">Mes réalisations</h1>
+                <div class="row gy-4">
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="card">
+                            <img
+                                src="images/brick_defender.png"
+                                alt="brickDefender"
+                            />
+                            <div class="card-header">
+                                <h5 class="card-title">Brick Defender</h5>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">
+                                    Brick Defender Un projet réalisé pour la
+                                    Gamejam numéro 20. Codé avec LOVE2D et en
+                                    LUA. Jouable en ligne et sources
+                                    téléchargeables.
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <a
+                                    href="https://christever.itch.io/gamejam20-breakout"
+                                    class="btn btn-outline-primary w-100"
+                                    target="_blank"
+                                >
+                                    En savoir plus
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="card">
+                            <img
+                                src="images/gravity_city.png"
+                                alt="Gravity city"
+                                class="card-img-top"
+                            />
+                            <div class="card-header">
+                                <h5 class="card-title">Gravity city</h5>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">
+                                    Un projet réalisé pour la Gamejam numéro 30.
+                                    Codé avec HaxeFlixel.
+                                </p>
+                            </div>
+
+                            <div class="card-footer">
+                                <a
+                                    href="https://christever.itch.io/gravity"
+                                    class="btn btn-outline-primary w-100"
+                                    target="_blank"
+                                >
+                                    En savoir plus
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="card">
+                            <img
+                                src="images/horizontal_shooter.png"
+                                alt="War of planes"
+                                class="card-img-top"
+                            />
+                            <div class="card-header">
+                                <h5 class="card-title">War of planes</h5>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">
+                                    War of planes Un projet réalisé pour la
+                                    Gamejam 13 Codé avec LOVE2D et en LUA.
+                                    Sources téléchargeables
+                                </p>
+                            </div>
+
+                            <div class="card-footer">
+                                <a
+                                    href="https://christever.itch.io/horizontal-shooter"
+                                    class="btn btn-outline-primary w-100"
+                                    target="_blank"
+                                >
+                                    En savoir plus
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card">
+                            <img
+                                src="images/invader_pucode.png"
+                                alt="Invader"
+                            />
+                            <div class="card-header">
+                                <h5 class="card-title">Brick Defender</h5>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">
+                                    Jeu réalisé pour la GameCodeur gameJam 11.
+                                    Le thème étant le code pur, donc aucun
+                                    fichier image autorisé. Jouable en ligne et
+                                    sources téléchargeables.
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <a
+                                    href="https://christever.itch.io/spaceinvader-pur-code"
+                                    class="btn btn-outline-primary w-100"
+                                    target="_blank"
+                                >
+                                    En savoir plus
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card">
+                            <img
+                                src="images/sodokan.png"
+                                alt="sodokan"
+                                class="card-img-top"
+                            />
+                            <div class="card-header">
+                                <h5 class="card-title">Shodokan</h5>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">
+                                    Shodokan Codé avec LOVE2D et en LUA. Sources
+                                    téléchargeables
+                                </p>
+                            </div>
+
+                            <div class="card-footer">
+                                <a
+                                    href="https://christever.itch.io/sodokan"
+                                    class="btn btn-outline-primary w-100"
+                                    target="_blank"
+                                >
+                                    En savoir plus
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card">
+                            <img
+                                src="images/ybh7Ab.png"
+                                alt="Stree Fighter"
+                                class="card-img-top"
+                            />
+                            <div class="card-header">
+                                <h5 class="card-title">Street Fighter</h5>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">
+                                    Projet réalisé pour la Gamejam 18. Codé
+                                    eavec LOVE2D et LUA. Jouable en ligne et
+                                    sources téléchargeables.
+                                </p>
+                            </div>
+
+                            <div class="card-footer">
+                                <a
+                                    href="https://christever.itch.io/gamejam-18"
+                                    class="btn btn-outline-primary w-100"
+                                    target="_blank"
+                                >
+                                    En savoir plus
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card">
+                            <img
+                                src="images/treasure.png"
+                                alt="Treasure hunter"
+                            />
+                            <div class="card-header">
+                                <h5 class="card-title">Treasure hunter</h5>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">
+                                    Treasure Hunter Un simple test de AOZ
+                                    Studio. Tiré d'un tutoriel sur PIXI. Adapté
+                                    par mes soins. Jouable en ligne et sources
+                                    téléchargeables.
+                                </p>
+                            </div>
+
+                            <div class="card-footer">
+                                <a
+                                    href="https://christever.itch.io/treasure-hunter"
+                                    class="btn btn-outline-primary w-100"
+                                    target="_blank"
+                                >
+                                    En savoir plus
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card">
+                            <img
+                                src="images/hangman.PNG"
+                                alt="brickDefender"
+                                class="card-img-top"
+                            />
+                            <div class="card-header">
+                                <h5 class="card-title">Hangman</h5>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">
+                                    Jeu du Pendu, réalisé dans le cadre du
+                                    programme Rocket de
+                                    <a
+                                        href="https://believemy.com"
+                                        target="_blank"
+                                        >Believemy</a
+                                    >
+                                    <br />
+                                    Il s'agissait du projet passerelle #1.
+                                </p>
+                            </div>
+
+                            <div class="card-footer">
+                                <a
+                                    href="https://hangman.steverlynck.fr"
+                                    class="btn btn-outline-primary w-100"
+                                    target="_blank"
+                                >
+                                    En savoir plus
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="bg-primary text-silver py-4 mt-4">
+            <div class="container">
+                <div class="text-center">
+                    &copy; Christian Stéverlynck - 2022
+                </div>
+                <div class="text-center mt-2">
+                    <a
+                        href="https://christever.itch.io"
+                        class="text-silver btn btn-secondary"
+                        target="_blank"
+                        title="Lien vers mes différentes réalisations"
+                        data-bs-toggle="tooltip"
+                        data-bs-placement="top"
+                        >Plus de projets</a
+                    >
+                </div>
+            </div>
+        </footer>
+
+        <!-- Modales -->
+        <div class="modal" id="modal-info-legales" data-bs-backdrop="static">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <!-- Header -->
+                    <div class="modal-header">
+                        <h5 class="modal-title">Infos. légales</h5>
+                    </div>
+
+                    <!-- Body -->
+                    <div class="modal-body">
+                        <p class="m-0">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit. Voluptatibus beatae quis vitae assumenda animi
+                            iste maiores fugit sequi magnam reiciendis tenetur
+                            autem soluta nostrum, eligendi ex? Porro, tenetur
+                            ipsum. Ad? Accusamus ut optio provident laborum
+                            tenetur autem dolor, cumque, labore facere ea
+                            accusantium soluta. Molestiae, ab? Laborum
+                            repellendus enim at provident optio cupiditate!
+                            Aliquid porro vero asperiores, adipisci debitis
+                            ullam? Atque ex, sint earum delectus minima quo illo
+                            vel maxime quod neque in obcaecati officia
+                            doloremque voluptatibus iste porro sapiente
+                            consequatur quis beatae dignissimos. Aliquam eius
+                            magni eos sapiente nihil?
+                        </p>
+                    </div>
+
+                    <!-- Footer -->
+                    <div class="modal-footer">
+                        <button
+                            class="btn btn-outline-secondary"
+                            data-bs-dismiss="modal"
+                        >
+                            Fermer
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--  -->
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script>
+            var tooltipTriggerList = [].slice.call(
+                document.querySelectorAll('[data-bs-toggle="tooltip"]')
+            );
+            var tooltipList = tooltipTriggerList.map(function (
+                tooltipTriggerEl
+            ) {
+                return new bootstrap.Tooltip(tooltipTriggerEl);
+            });
+        </script>
+    </body>
+</html>
